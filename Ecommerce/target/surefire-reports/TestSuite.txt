@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.13 s <<< FAILURE! - in TestSuite
+login_validusernameandpassword(com.visa.LoginPageTest)  Time elapsed: 3.094 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.visa.LoginPageTest.enterValidUsernameAndPassword(LoginPageTest.java:108)
+	at com.visa.LoginPageTest.login_validusernameandpassword(LoginPageTest.java:54)
+
+afterTest(com.visa.LoginPageTest)  Time elapsed: 3.176 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'admins-mbp.lan', ip: 'fe80:0:0:0:c93:2ec2:6406:17aa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/nc/c936x7k50kz...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 64ea9fcbbd4048d7592bba09054ca42f
+	at com.visa.LoginPageTest.close(LoginPageTest.java:120)
+	at com.visa.LoginPageTest.afterTest(LoginPageTest.java:127)
+
